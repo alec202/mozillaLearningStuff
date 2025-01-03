@@ -1,0 +1,42 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Roboto Static", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+    background-color: #42009f;
+    
+  }
+
+    h1 {
+    font-size: 60px;
+    text-align: center;
+    color: azure;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px black;
+    border: 3px solid black;
+  }
+  
+
+  body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(172, 4, 158);
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+
+  }
+
+  p,
+  li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: aliceblue;
+  }
+
+  
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    padding: 5px;
+  }
