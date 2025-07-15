@@ -1,2 +1,4 @@
 This repository is where I will store the code examples I complete as I work through the [Mozilla web application development course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started)
-I am here: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
+I am here: Complete the test your skills first: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+
+Then continue from here: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents
