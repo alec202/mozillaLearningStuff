@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Embedded</title>
+</head>
+<body>
+    <h1>Video embed</h1>
+
+    <video 
+    controls
+    width="320"
+    height="240"
+    muted
+    >
+        <source src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/video.mp4" 
+            type="video/mp4">
+        <source src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/video.webm" 
+        type="vieo/webm">
+        <track kind="subtitles" src="https://raw.githubusercontent.com/mdn/learning-area/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/subtitles_en.vtt"
+        srclang="en" label="English"/>
+        <p>
+            Looks like your browser doesn't support embedded videos
+            <a href="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/video.mp4">
+                Download the video
+            </a>  instead.
+        </p>
+    </video>
+
+</body>
+</html>
