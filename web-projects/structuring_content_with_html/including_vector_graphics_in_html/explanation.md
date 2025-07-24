@@ -1,0 +1,2 @@
+This isn't part of the core modules in the MDN Web Docs learning. 
+It's one of the optional learning readings. [Including Vectors in HTML](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML)

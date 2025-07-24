@@ -9,6 +9,10 @@ table {
   font-size: 0.8rem;
 }
 
+.name_column{
+  border:2px solid black;
+}
+
 td, th {
   border: 1px solid rgb(190,190,190);
   padding: 10px 20px;
@@ -34,21 +38,3 @@ caption {
   padding: 10px;
 }
 
-/* .planet_names{
-  padding: 10px 20px;
-  border: 2px solid black;
-  border-bottom: 1px solid rgb(190,190,190);
-  border-top: 1px solid rgb(190,190,190);
-}
-
-.end_planet_names{
-  padding: 10px 20px;
-  border: 2px solid black;
-  border-top: 1px solid rgb(190,190,190);
-}
-
-.start_planet_names{
-  padding: 10px 20px;
-  border: 2px solid black;
-  border-bottom: 1px solid rgb(190,190,190);
-} */
