@@ -1,0 +1,23 @@
+h1 {
+  color: red;
+  font-size: 2.5em;
+}
+
+p {
+  color: aqua;
+  padding: 5px;
+  background: midnightblue;
+}
+
+h2 {
+  color: purple;
+  font-size: 2.0em;
+  border: 1rem double gray
+}
+
+h3 {
+  color: yellow;
+  font-size: 2.0em;
+  border: 1rem double black;
+  content-visibility: hidden
+}
