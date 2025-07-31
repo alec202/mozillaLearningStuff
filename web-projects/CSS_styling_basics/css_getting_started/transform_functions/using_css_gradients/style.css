@@ -1,0 +1,22 @@
+div {
+  width: 120px;
+  height: 120px;
+}
+
+.simple-linear {
+  background: linear-gradient(
+    405deg,
+    blue, pink);
+}
+
+.auto-spaced-linear-gradient {
+  background: linear-gradient(red, yellow, blue, orange);
+}
+
+.multicolor-linear {
+  background: linear-gradient(to left, lime 28px, red 77%, cyan);
+}
+
+.striped {
+  background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);
+}
