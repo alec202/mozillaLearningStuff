@@ -1,0 +1,23 @@
+body {
+  font: 1.2em sans-serif;
+  margin: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > * {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.example > * {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+/* em {
+    background-color: yellow;
+    color: brown;
+} */

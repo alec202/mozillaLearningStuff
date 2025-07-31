@@ -1,0 +1,1 @@
+This folder is not actually apart of the CSS core module. Instead it was a sub link that was clicked on but deemed useful to know. [view here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Visual_formatting_model)

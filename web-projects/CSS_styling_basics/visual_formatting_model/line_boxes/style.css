@@ -1,0 +1,16 @@
+body {
+  font: 1.2em sans-serif;
+  margin: 20px;
+}
+
+.float {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: rebeccapurple;
+  margin: 20px;
+}
+
+.following {
+  background-color: #ccc;
+}

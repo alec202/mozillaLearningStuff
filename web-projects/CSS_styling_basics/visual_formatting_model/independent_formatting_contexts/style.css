@@ -1,0 +1,25 @@
+body {
+  font: 1.2em sans-serif;
+  margin: 20px;
+}
+.container {
+  background-color: #333;
+  color: #fff;
+}
+
+.item {
+  background-color: #fff;
+  border: 1px solid #999;
+  color: #333;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.container {
+  display: flow-root;
+}
+
+.item {
+  margin: 10px;
+  float: left;
+}
