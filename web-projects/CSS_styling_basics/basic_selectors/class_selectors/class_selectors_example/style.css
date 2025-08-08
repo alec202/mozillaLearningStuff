@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+
+.highlight {
+  background-color: #eeee;
+  border: 0.25rem solid blueviolet;
+}
+
+.highlight2 {
+    color: red;
+    border: 0.20rem solid green;
+}
