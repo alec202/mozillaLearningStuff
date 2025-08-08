@@ -32,8 +32,9 @@ ul {
     border: 0.3125rem solid purple;
     background-color: #eeeeee;
     padding: 1.2rem;
+    border-inline: 1rem solid white;
 }
 
-li:first-child > a {
+a:hover {
     color: green;
 }
