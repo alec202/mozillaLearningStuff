@@ -1,13 +1,10 @@
 body {
   font-family: sans-serif;
 }
-
-#one {
+span {
   background-color: yellow;
-  background: linear-gradient(blue, red);
 }
 
-h1#heading {
+strong, em {
   color: rebeccapurple;
-  background-color: black;
 }

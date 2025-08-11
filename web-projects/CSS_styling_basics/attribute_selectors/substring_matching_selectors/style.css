@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+li[class^="a"] {
+  font-size: 120%;
+}
+
+li[class$="a"] {
+  background-color: yellow;
+}
+
+li[class*="a"] {
+  color: red;
+}
+
+li[class$="b"],
+li[class$="c"] {
+    border: 0.125rem solid black;
+}

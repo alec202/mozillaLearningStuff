@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+
+p span {
+  margin: 0;
+  background-color: yellow;
+}
+
+* {
+    margin: 0;
+}
