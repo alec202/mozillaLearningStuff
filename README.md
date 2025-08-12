@@ -2,4 +2,8 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements
+First read and try to understand what the content property is doing and how the CSS works:
+https://cssarrowplease.com/
+
+Then continue from here:
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators

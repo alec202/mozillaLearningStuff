@@ -1,0 +1,13 @@
+a:link,
+a:visited {
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff69b4;
+}
+
+input:focus {
+    background-color: red;
+}

@@ -1,0 +1,12 @@
+.first {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+p:hover {
+    color: blue;
+}
+
+article p:last-child {
+    background-color: orange;
+}
