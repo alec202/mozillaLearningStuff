@@ -2,8 +2,10 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-First read and try to understand what the content property is doing and how the CSS works:
-https://cssarrowplease.com/
+First redo challenge 3 and continue from here: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Selectors#task_3
 
-Then continue from here:
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
+Then, continue from here:
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
+
+After Finished with all of the CSS stuff come back here and read this to understand what it does better:
+https://cssarrowplease.com/

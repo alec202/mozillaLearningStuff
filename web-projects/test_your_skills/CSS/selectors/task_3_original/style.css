@@ -1,0 +1,43 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+td,
+th {
+  padding: 0.2em;
+  text-align: left;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* make the first element inside the container have a 1.5 increased font size */
+.container > :first-child {
+    font-size: 150%;
+}
+
+.container > :first-child::first-line {
+    color: red;
+}
+
+tr:nth-of-type(even) {
+    background-color: #333333;
+    color: white;
+}
