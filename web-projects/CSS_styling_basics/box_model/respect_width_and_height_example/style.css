@@ -1,0 +1,8 @@
+div, span {
+    width: 300px;
+    height: 100px;
+    background: lightblue;
+}
+
+div { display: block; }   /* Width/height work */
+span { display: inline; }  /* Width/height ignored */
