@@ -2,9 +2,7 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-
-Then, continue from here:
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model#using_display_inline-block
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
 
 After Finished with all of the CSS stuff come back here and read this to understand what it does better:
 * https://cssarrowplease.com/
