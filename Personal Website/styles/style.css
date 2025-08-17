@@ -1,0 +1,39 @@
+/* HEADER INFORMATION */
+
+h1 {
+    display: inline;
+}
+
+header {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactInfo {
+    display: inline;
+
+}
+
+
+[class|="phone"] {
+    background: linear-gradient(green, yellow);
+    margin-top: 20px;
+
+}
+
+
+h1 {
+    display: inline;
+    text-decoration: underline solid black 2px;
+}
+
+.pageSections {
+    padding: 4px;
+    margin: 4px;
+}
+
+.pageSections li {
+    border: 2px solid black;
+}
