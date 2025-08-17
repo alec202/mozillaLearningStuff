@@ -1,9 +1,5 @@
 /* HEADER INFORMATION */
 
-h1 {
-    display: inline;
-}
-
 header {
     margin: 1rem;
     display: flex;
@@ -11,21 +7,12 @@ header {
     justify-content: space-between;
 }
 
-.contactInfo {
-    display: inline;
-
-}
-
-
 [class|="phone"] {
     background: linear-gradient(green, yellow);
-    margin-top: 20px;
-
 }
 
 
 h1 {
-    display: inline;
     text-decoration: underline solid black 2px;
 }
 
