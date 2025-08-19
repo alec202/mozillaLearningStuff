@@ -1,0 +1,10 @@
+blockquote {
+  background-color: orange;
+  border: 2px solid blue;
+}
+
+.fix-this {
+  all: inherit;
+}
+
+

@@ -1,0 +1,13 @@
+h2 {
+  font-size: 2em;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.small {
+  font-size: 1em;
+}
+
+.bright {
+  color: rebeccapurple;
+}

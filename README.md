@@ -2,7 +2,11 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
+FIRST COMPLETE THE TEST YOUR SKILLS:
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Cascade
+
+THEN CONTINUE FROM HERE: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units#strings_and_identifiers
+
 
 After Finished with all of the CSS stuff come back here and read this to understand what it does better:
 * https://cssarrowplease.com/
