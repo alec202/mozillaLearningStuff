@@ -1,0 +1,3 @@
+
+* [The first blue Note portion underneath this header](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers#creating_cascade_layers)
+    * " Note: The order of precedence of layers is the order in which they are created. Styles not in a layer, or "unlayered styles", cascade together into a final implicit label." (this is backwards, suggest they remove this note all together, it contradicts later paragraphs as well.)
