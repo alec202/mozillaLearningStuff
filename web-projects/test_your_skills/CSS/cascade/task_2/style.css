@@ -1,4 +1,4 @@
-@layer yellow, purple, green;
+@layer yellow, green, purple;
 
 @layer yellow {
   #outer div ul .nav a {
