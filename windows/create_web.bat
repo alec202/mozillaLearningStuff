@@ -81,7 +81,7 @@ echo ^</html^>
 REM Create style.css file
 echo Creating style.css...
 (
-@REM echo /* CSS for %folder_name% */
+echo /* CSS for %folder_name% */
 @REM echo.
 @REM echo body {
 @REM echo     font-family: Arial, sans-serif;
