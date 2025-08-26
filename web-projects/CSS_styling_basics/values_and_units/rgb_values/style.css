@@ -1,0 +1,17 @@
+/* CSS for rgb_values */
+.box {
+  padding: 10px;
+  margin: 0.5em 0;
+  border-radius: 0.5em;
+}
+.one {
+  background-color: rgb(255 121 0);
+}
+
+.two {
+  background-color: rgb(100% 0% 100%);
+}
+
+.three {
+  background-color: rgb(18 138 125);
+}
