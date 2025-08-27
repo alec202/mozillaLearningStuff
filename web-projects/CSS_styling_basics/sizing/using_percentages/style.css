@@ -1,0 +1,10 @@
+/* CSS for using_percentages */
+body {
+  font: 1.2em sans-serif;
+}
+
+.box,
+.container {
+  border: 5px solid darkblue;
+  width: 50%;
+}

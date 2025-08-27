@@ -1,0 +1,17 @@
+/* CSS for setting_a_specific_size */
+body {
+  font: 1.2em sans-serif;
+}
+.wrapper {
+  display: flex;
+}
+
+.wrapper > * {
+  margin: 20px;
+}
+
+.box {
+  border: 5px solid darkblue;
+  height: 100px;
+  width: 200px;
+}

@@ -1,0 +1,26 @@
+/* CSS for max_width_on_images */
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrapper > * {
+  margin: 20px;
+}
+
+.box,
+.mini-box {
+  border: 5px solid darkblue;
+}
+.box {
+  width: 200px;
+}
+.mini-box {
+  width: 30px;
+}
+.width {
+  width: 100%;
+}
+.max {
+  max-width: 100%;
+}

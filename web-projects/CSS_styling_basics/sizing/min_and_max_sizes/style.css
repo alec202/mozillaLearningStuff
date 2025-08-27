@@ -1,0 +1,18 @@
+/* CSS for min_and_max_sizes */
+body {
+  font: 1.2em sans-serif;
+}
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrapper > * {
+  margin: 20px;
+}
+
+.box {
+  border: 5px solid darkblue;
+  min-height: 100px;
+  width: 200px;
+}
