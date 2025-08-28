@@ -1,21 +1,15 @@
-/* CSS for task_1 */
+/* CSS for task_3 */
 body {
   font: 1.2em / 1.5 sans-serif;
   padding: 1em;
 }
-
 .box {
   border: 5px solid black;
-  width: 400px;
   margin-bottom: 1em;
+  width: 500px;
 }
 
-.box1 {
+img {
   /* Add styles here */
-  min-height: 100px;
-}
-
-.box2 {
-  /* Add styles here */
-  height: 100px;
+  max-width: 100%;
 }

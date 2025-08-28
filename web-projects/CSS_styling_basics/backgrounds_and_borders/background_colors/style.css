@@ -1,0 +1,13 @@
+/* CSS for background_colors */
+.box {
+  padding: 0.3em;
+  background-color: #f0F;
+}
+
+h2 {
+  background-color: blue;
+  color: white;
+}
+span {
+  background-color: rgb(50 255 255 / 1);
+}

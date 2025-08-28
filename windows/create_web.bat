@@ -1,5 +1,5 @@
 @echo off
-setlocal
+setlocal enabledelayedexpansion
 echo ================================
 echo   Web Project Folder Creator
 echo ================================
@@ -17,14 +17,32 @@ if "%folder_name%"=="" (
 
 REM Prompt user for target directory
 echo.
-set /p target_dir="Enter the directory path (or press Enter for current directory): "
+echo Enter the directory path, or:
+echo   - Press Enter for current directory
+echo   - Type 'y' to use saved learning directory
+set /p target_dir="Your choice: "
 
-REM If no directory provided, use current directory
-if "%target_dir%"=="" (
+REM Check if user wants to use saved directory
+if /i "%target_dir%"=="y" (
+    set "saved_dir_file=C:\Users\mirambeaua\learningStuff\mozillaLearningStuff\current_learning_directory.txt"
+    
+    REM Check if the saved directory file exists
+    if exist "!saved_dir_file!" (
+        REM Read the first line from the file
+        set /p target_dir=<"!saved_dir_file!"
+        echo Using saved directory: !target_dir!
+    ) else (
+        echo Error: Saved directory file not found at:
+        echo !saved_dir_file!
+        pause
+        exit /b 1
+    )
+) else if "%target_dir%"=="" (
+    REM If no directory provided, use current directory
     set "target_dir=%CD%"
     echo Using current directory: %CD%
 ) else (
-    REM Check if the provided directory exists
+    REM User entered a custom path - check if it exists
     if not exist "%target_dir%" (
         echo.
         echo Error: Directory "%target_dir%" does not exist!

@@ -1,0 +1,13 @@
+/* CSS for sizing_the_background_image */
+.box {
+  width: 500px;
+  height: 100px;
+  padding: 0.5em;
+  border: 5px solid black;
+  margin: 10px;
+}
+.box {
+  background-image: url("https://mdn.github.io/shared-assets/images/examples/balloons.jpg");
+  background-repeat: repeat;
+  background-size: 6.25em 3.125em;
+}

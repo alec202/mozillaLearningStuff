@@ -1,0 +1,29 @@
+/* CSS for gradient_backgrounds */
+.wrapper {
+  display: flex;
+}
+
+.box {
+  width: 400px;
+  height: 80px;
+  padding: 0.5em;
+  border: 1px solid #cccccc;
+  margin: 20px;
+}
+
+.a {
+  background-image: linear-gradient(
+    115deg,
+    rgb(0 249 255 / 100%) 39%,
+    rgb(51 56 57 / 100%) 96%
+  );
+}
+
+.b {
+  background-image: radial-gradient(
+    circle,
+    rgb(0 249 255 / 100%) 39%,
+    rgb(51 56 57 / 100%) 96%
+  );
+  background-size: 100px 50px;
+}

@@ -1,0 +1,21 @@
+/* CSS for background_images */
+.wrapper {
+  display: flex;
+}
+
+.box {
+  width: 200px;
+  height: 80px;
+  padding: 0.5em;
+  border: 1px solid #cccccc;
+  margin: 20px;
+  background-color: red;
+}
+
+.a {
+  background-image: url("https://mdn.github.io/shared-assets/images/examples/balloons.jpg");
+}
+
+.b {
+  background-image: url("https://mdn.github.io/shared-assets/images/examples/star.png");
+}

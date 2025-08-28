@@ -1,0 +1,23 @@
+/* CSS for playing_with_multiple_background_images */
+.wrapper {
+    display: flex;
+}
+
+.box {
+    width: 500px;
+    height: 80px;
+    padding: 0.5em;
+    border: 5px solid #000000;
+    margin: 20px;
+}
+
+.box {
+    background-image:
+        url("https://mdn.github.io/shared-assets/images/examples/big-star.png"),
+        url("https://mdn.github.io/shared-assets/images/examples/star.png"),
+        linear-gradient(green, blue, pink);
+        background-repeat: no-repeat, no-repeat;
+        /* background-size: 10% 15%, 20% 25%; */
+        background-position: center, right center;
+
+    }
