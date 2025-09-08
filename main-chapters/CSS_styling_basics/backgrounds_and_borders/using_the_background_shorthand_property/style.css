@@ -1,0 +1,16 @@
+/* CSS for using_the_background_shorthand_property */
+.box {
+  width: 500px;
+  height: 300px;
+  padding: 0.5em;
+  background:
+    linear-gradient(
+        105deg,
+        rgba(14, 177, 25, 0.618) 39%,
+        rgba(69, 174, 195, 0.718) 96%
+      )
+      center center / 400px 200px no-repeat,
+    url("https://mdn.github.io/shared-assets/images/examples/big-star.png")
+      center no-repeat,
+    rebeccapurple;
+}

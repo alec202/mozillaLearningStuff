@@ -8,5 +8,6 @@
 }
 .box {
   background-image: url("https://mdn.github.io/shared-assets/images/examples/star.png");
-  background-repeat: round;
+  background-repeat: repeat-y;
+  background-position: center;
 }

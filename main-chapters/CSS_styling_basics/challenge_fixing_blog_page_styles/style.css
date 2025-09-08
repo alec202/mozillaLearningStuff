@@ -1,0 +1,70 @@
+/* CSS for challenge_fixing_blog_page_styles */
+/* Basic type and text */
+
+body {
+  font: 1.2em / 1.5 system-ui;
+  width: clamp(480px, 70%, 1000px);
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Nav menu */
+
+ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+li {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: yellowgreen;
+  text-align: center;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: goldenrod;
+}
+
+/* Intro and summary */
+
+.highlight {
+  margin-top: 0;
+  background-color: darkslategray;
+  color: cornsilk;
+}
+
+.highlight a {
+  color: purple;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 20px;
+  background-color: goldenrod;
+  text-shadow: 1px 1px 1px black;
+}

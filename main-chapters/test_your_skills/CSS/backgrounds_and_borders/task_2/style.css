@@ -1,0 +1,31 @@
+/* CSS for task_2 */
+body {
+    padding: 1em;
+    font: 1.2em / 1.5 sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    padding: 0.5em;
+}
+
+.box {
+    /* Add styles here */
+    border: 5px solid lightblue;
+    border-radius: 20px 0 40px 0;
+
+}
+
+h2 {
+    /* Add styles here */
+    background:
+        url("https://mdn.github.io/shared-assets/images/examples/star.png") left center no-repeat,
+        url("https://mdn.github.io/shared-assets/images/examples/star.png") right center repeat-y;
+    padding: 0 40px;
+    text-align: center;
+
+}

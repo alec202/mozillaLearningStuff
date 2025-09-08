@@ -1,0 +1,26 @@
+/* CSS for task_1 */
+body {
+  padding: 1em;
+  font: 1.2em / 1.5 sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 0.5em;
+}
+
+.box {
+  /* Add styles here */
+  border: 5px solid black;
+  border-radius: 10px;
+  background: url("https://mdn.github.io/shared-assets/images/examples/balloons.jpg") 0% 0% / cover;
+}
+
+h2 {
+  /* Add styles here */
+  background-color: rgba(0, 0, 0, 0.60);
+  color: white;
+}
