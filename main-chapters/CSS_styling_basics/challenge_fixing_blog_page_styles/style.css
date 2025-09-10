@@ -1,6 +1,16 @@
 /* CSS for challenge_fixing_blog_page_styles */
 /* Basic type and text */
 
+/* COMPLETED STEP 1 FOR THE PROJECT BRIEF */
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
   font: 1.2em / 1.5 system-ui;
   width: clamp(480px, 70%, 1000px);
