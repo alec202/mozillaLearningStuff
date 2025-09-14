@@ -2,9 +2,6 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-FIRST COMPLETE THIS NEWLY ADDED CHALLENGE:
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Fixing_blog_styles
-
 THEN COMPLETE THIS CHALLENGE AND CONTINUE FROM HERE: 
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Size_decorate_content_panel
 

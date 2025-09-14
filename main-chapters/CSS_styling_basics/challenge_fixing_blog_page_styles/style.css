@@ -5,6 +5,7 @@
 html {
     box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -12,85 +13,82 @@ html {
 }
 
 body {
-  font: 1.2em / 1.5 system-ui;
-  width: clamp(480px, 70%, 1000px);
-  margin: 0 auto;
+    font: 1.2em / 1.5 system-ui;
+    width: clamp(480px, 70%, 1000px);
+    margin: 0 auto;
 }
 
 h1 {
-  font-size: 2em;
+    font-size: 2em;
 }
 
 h2 {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
-/* number 6 */
-h2 + p::first-line {
+/* number 6 & 7 */
+section:not(.highlight) h2 + p::first-line {
     font-weight: bold;
 }
 
-/* number 7 */
-
-
 a {
-  color: red;
+    color: red;
 }
 
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-#introduction,
-#summary,
-footer {
-    padding: 20px;
-}
 /* Nav menu */
-
-nav > ul {
-  display: flex;
-  padding: 0;
-  list-style-type: none;
-  justify-content: space-between;
-  gap: 10px;
+nav ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 nav li {
-  flex: 1;
-  border: 2px solid red;
+    flex: 1;
+    border: 2px solid red;
 }
 
 nav a {
-  text-decoration: none;
-  color: black;
-  background-color: yellowgreen;
-  text-align: center;
-  padding: 10px;
-  display: block;
+    text-decoration: none;
+    color: black;
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+    display: block;
 }
 
 a:hover,
-a:focus{
-  background-color: goldenrod;
+a:focus {
+    background-color: goldenrod;
 }
 
 /* Intro and summary */
 
 .highlight {
-  margin-top: 0;
-  background-color: darkslategray;
-  color: cornsilk;
+    margin-top: 0;
+    background-color: darkslategray;
+    color: cornsilk;
+    padding: 20px;
+
+}
+
+section.highlight a {
+    color: yellow;
 }
 
 .highlight a {
-  color: purple;
+    color: purple;
 }
 
 /* Footer */
 
-footer {
-  margin-top: 20px;
-  background-color: goldenrod;
-  text-shadow: 1px 1px 1px black;
+footer.highlight {
+    margin-top: 20px;
+    background-color: goldenrod;
+    text-shadow: 1px 1px 1px black;
 }
