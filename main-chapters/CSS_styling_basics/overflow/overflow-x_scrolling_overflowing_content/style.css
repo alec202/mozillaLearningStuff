@@ -1,0 +1,7 @@
+/* CSS for overflow-x_scrolling_overflowing_content */
+.word {
+  border: 5px solid #333333;
+  width: 100px;
+  font-size: 250%;
+  overflow-x: scroll;
+}

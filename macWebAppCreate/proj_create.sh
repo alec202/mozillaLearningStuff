@@ -15,32 +15,51 @@ if [ -z "$folder_name" ]; then
     exit 1
 fi
 
-# Prompt user for target directory
+# Prompt user for target directory with option to use saved directory
 echo
-read -p "Enter the directory path (or press Enter for current directory): " target_dir
+read -p "Use saved directory from current_learning_directory.txt? (Y/N): " use_saved
 
-# If no directory provided, use current directory
-if [ -z "$target_dir" ]; then
-    target_dir="$(pwd)"
-    echo "Using current directory: $(pwd)"
+if [[ "$use_saved" =~ ^[Yy]$ ]]; then
+    # Path to the text file
+    saved_dir_file="/Users/alecmirambeau/Desktop/Programming Stuff Personal/mozillaLearningStuff/current_learning_directory.txt"
+    
+    # Check if the file exists
+    if [ -f "$saved_dir_file" ]; then
+        # Read the first line from the file
+        target_dir=$(head -n 1 "$saved_dir_file")
+        echo "Using saved directory: $target_dir"
+    else
+        echo "Error: File \"$saved_dir_file\" does not exist!"
+        read -p "Press Enter to exit..."
+        exit 1
+    fi
 else
-    # Check if the provided directory exists
-    if [ ! -d "$target_dir" ]; then
-        echo
-        echo "Error: Directory \"$target_dir\" does not exist!"
-        read -p "Do you want to create it? (Y/N): " create_dir
-        if [[ "$create_dir" =~ ^[Yy]$ ]]; then
-            if ! mkdir -p "$target_dir" 2>/dev/null; then
-                echo "Error: Could not create directory!"
-                read -p "Press Enter to exit..."
-                exit 1
-            fi
-            echo "Directory created successfully."
-        else
-            echo "Operation cancelled."
+    # Prompt user for target directory manually
+    read -p "Enter the directory path (or press Enter for current directory): " target_dir
+    
+    # If no directory provided, use current directory
+    if [ -z "$target_dir" ]; then
+        target_dir="$(pwd)"
+        echo "Using current directory: $(pwd)"
+    fi
+fi
+
+# Check if the provided directory exists
+if [ ! -d "$target_dir" ]; then
+    echo
+    echo "Error: Directory \"$target_dir\" does not exist!"
+    read -p "Do you want to create it? (Y/N): " create_dir
+    if [[ "$create_dir" =~ ^[Yy]$ ]]; then
+        if ! mkdir -p "$target_dir" 2>/dev/null; then
+            echo "Error: Could not create directory!"
             read -p "Press Enter to exit..."
             exit 1
         fi
+        echo "Directory created successfully."
+    else
+        echo "Operation cancelled."
+        read -p "Press Enter to exit..."
+        exit 1
     fi
 fi
 

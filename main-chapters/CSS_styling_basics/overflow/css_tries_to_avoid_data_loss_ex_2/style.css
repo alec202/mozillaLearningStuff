@@ -1,0 +1,6 @@
+/* CSS for css_tries_to_avoid_data_loss_ex_2 */
+.word {
+  border: 1px solid #333333;
+  width: 100px;
+  font-size: 250%;
+}
