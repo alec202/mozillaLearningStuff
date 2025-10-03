@@ -1,0 +1,12 @@
+/* CSS for replaced_elements_in_layout */
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  gap: 20px;
+}
+
+.wrapper > div {
+  background-color: rebeccapurple;
+  border-radius: 0.5em;
+}

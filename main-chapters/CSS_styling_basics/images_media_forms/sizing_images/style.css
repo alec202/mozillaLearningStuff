@@ -1,0 +1,18 @@
+/* CSS for sizing_images */
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrapper > * {
+  margin: 20px;
+}
+
+.box {
+  border: 5px solid darkblue;
+  width: 200px;
+}
+
+img {
+    max-width: 100%;
+}

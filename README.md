@@ -2,8 +2,7 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
-
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms#styling_text_input_elements
 
 After Finished with all of the CSS stuff come back here and read this to understand what it does better:
 * https://cssarrowplease.com/
