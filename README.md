@@ -4,6 +4,7 @@ I am here:
 
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Tables#adding_borders
 
+
 After Finished with all of the CSS stuff come back here and read this to understand what it does better:
 * https://cssarrowplease.com/
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing
