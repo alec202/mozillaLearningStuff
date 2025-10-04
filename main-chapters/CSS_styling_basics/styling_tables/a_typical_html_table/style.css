@@ -10,13 +10,14 @@ table {
     min-width: 1000px;
     margin: 0 auto;
     border-collapse: collapse;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
 }
 
 th,
 td {
     vertical-align: top;
     padding: 0.3em;
-
 }
 
 tr :nth-child(2),
@@ -37,4 +38,19 @@ tfoot tr :nth-child(1){
 
 tfoot tr :nth-child(2) {
     text-align: left;
+}
+
+tfoot {
+    border-top: 1px solid #999;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+caption {
+    padding: 1em;
+    font-style: italic;
+    caption-side: bottom;
+    letter-spacing: 1px;
 }
