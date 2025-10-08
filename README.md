@@ -2,8 +2,7 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Debugging_CSS
-
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Debugging_CSS#understanding_the_box_model
 
 After Finished with all of the CSS stuff come back here and read this to understand what it does better:
 * https://cssarrowplease.com/
