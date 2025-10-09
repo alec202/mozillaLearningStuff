@@ -2,7 +2,8 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals#font_size
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals#text_layout
+
 
 After Finished with all of the CSS stuff come back here and read this to understand what it does better:
 
