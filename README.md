@@ -2,9 +2,12 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Debugging_CSS#understanding_the_box_model
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals#font_size
 
 After Finished with all of the CSS stuff come back here and read this to understand what it does better:
+
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics#additional_tutorials
+
 * https://cssarrowplease.com/
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing
 
