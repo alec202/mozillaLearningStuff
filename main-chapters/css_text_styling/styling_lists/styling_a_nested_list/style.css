@@ -1,0 +1,12 @@
+/* CSS for styling_a_nested_list */
+ul {
+    list-style-type: square;
+}
+
+li {
+    line-height: 1.5;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}

@@ -1,1 +1,1 @@
-/Users/alecmirambeau/Desktop/Programming Stuff Personal/mozillaLearningStuff/main-chapters/css_text_styling/styling_lists
+/Users/alecmirambeau/Desktop/Programming Stuff Personal/mozillaLearningStuff/main-chapters/css_text_styling/styling_links

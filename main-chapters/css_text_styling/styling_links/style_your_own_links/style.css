@@ -1,0 +1,34 @@
+/* CSS for style_your_own_links */
+a {
+    color: rgb(96, 228, 228);
+    /* text-decoration-line: underline;
+    text-decoration-style: dotted; */
+    text-decoration: underline dotted 2px;
+    outline: transparent;
+    padding: 2px 1px 0
+}
+
+a:visited {
+    color: rgb(178, 9, 178)
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: rgba(236, 10, 161, 0.666);
+    background: green;
+}
+
+a:active {
+    color: yellow;
+}
+
+a[href^="https"]::after {
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.25em;
+    background-size: 100%;
+    background-image: url("external-link-52.png");
+}
