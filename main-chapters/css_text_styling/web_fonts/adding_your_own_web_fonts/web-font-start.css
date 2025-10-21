@@ -1,0 +1,52 @@
+/* Fonts */
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.woff2') format('woff2'),
+        url('fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Norwester';
+    src: url('fonts/Norwester-Regular.woff2') format('woff2'),
+        url('fonts/Norwester-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* General setup */
+
+html {
+    font-size: 10px;
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+    font-family: Norwester, Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+}
+
+h2 {
+    font: 2.4rem "Norwester", Arial, Helvetica, sans-serif;
+    /* font-family: "Norwester", Arial, Helvetica, sans-serif; */
+    /* font-size: 2.4rem; */
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+}
