@@ -1,35 +1,66 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Dustismo Roman';
+    src: url('fonts/DustismoRoman.woff2') format('woff2'),
+        url('fonts/DustismoRoman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kirsty';
+    src: url('fonts/Kirsty.woff2') format('woff2'),
+        url('fonts/Kirsty.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 /* General setup */
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    min-width: 980px;
+    max-width: 1400px;
+    font-family: "Dustismo Roman", serif
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Kirsty"
+}
 /* Layout */
 
 main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr;
+    gap: 40px;
+    padding: 20px 0;
 }
 
 /* header and footer */
 
 header {
-  border-bottom: 5px solid #aa6666;
+    border-bottom: 5px solid #aa6666;
 }
 
 footer {
-  border-top: 5px solid #aa6666;
+    border-top: 5px solid #aa6666;
 }
 
 footer p {
-  text-align: center;
+    text-align: center;
 }

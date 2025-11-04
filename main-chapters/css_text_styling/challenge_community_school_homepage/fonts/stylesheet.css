@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Dustismo Roman';
+    src: url('DustismoRoman.woff2') format('woff2'),
+        url('DustismoRoman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kirsty';
+    src: url('Kirsty.woff2') format('woff2'),
+        url('Kirsty.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
