@@ -42,6 +42,7 @@ h5,
 h6 {
     font-family: "Kirsty"
 }
+
 /* Layout */
 
 main {
@@ -63,4 +64,91 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+/* GENERAL TEXT STYLING */
+/* 1. */
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* 2. */
+p {
+    line-height: 1.5;
+}
+
+/* 3. */
+h1 {
+    text-align: center;
+}
+
+/* 4. */
+h2 {
+    margin-bottom: 0;
+}
+
+/* 5. */
+h1,
+h2,
+p {
+    letter-spacing: 0.0625em;
+}
+
+/* 6. */
+section h2+p {
+    text-indent: 2rem;
+}
+
+/* LINK STYLING */
+/* 1. */
+a {
+    cursor: pointer;
+}
+
+a:link {
+    color: #aa6666;
+}
+
+a:visited {
+    /* color: #c1c65d; */
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #e49595ce;
+}
+
+/* 2.  */
+a {
+    text-decoration: underline solid;
+
+}
+
+/* 3. */
+a {
+    outline: transparent;
+}
+
+/* 4. */
+a[href^="http"]::after {
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.25em;
+    background-size: 100%;
+    background-image: url("external-link-svgrepo-com.svg")
+}
+
+/* LIST STYLING */
+/* 1. */
+ul,
+ol {
+    line-height: 1.5; 
+    margin: 1em 0;
 }
