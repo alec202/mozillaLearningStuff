@@ -31,7 +31,7 @@ body {
     padding: 0 20px;
     min-width: 980px;
     max-width: 1400px;
-    font-family: "Dustismo Roman", serif
+    font-family: "Dustismo Roman", sans-serif, serif, system-ui;
 }
 
 h1,
@@ -72,6 +72,7 @@ h1 {
     font-size: 3em;
 }
 
+/* 1. */
 h2 {
     font-size: 2em;
 }
@@ -99,7 +100,7 @@ p {
 }
 
 /* 6. */
-section h2+p {
+section  h2 + p {
     text-indent: 2rem;
 }
 
@@ -114,19 +115,22 @@ a:link {
 }
 
 a:visited {
-    /* color: #c1c65d; */
+    color: #d53815;
 }
 
 a:focus,
 a:hover {
-    text-decoration: none;
     color: #e49595ce;
 }
 
 /* 2.  */
 a {
     text-decoration: underline solid;
+}
 
+a:focus,
+a:hover {
+    text-decoration: none;
 }
 
 /* 3. */
@@ -151,4 +155,12 @@ ul,
 ol {
     line-height: 1.5; 
     margin: 1em 0;
+    letter-spacing: 0.0625em;
 }
+/* 2. */
+ul {
+    list-style: square;
+}
+
+/* NAVIGATION MENU STYLING */
+/* 1. */
