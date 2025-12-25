@@ -164,3 +164,25 @@ ul {
 
 /* NAVIGATION MENU STYLING */
 /* 1. */
+nav a {
+    display: block;
+    width: 100%;
+    background-color: #ead0c6e2;
+    min-height: 6em;
+    max-height: 6em;
+    margin: 8px 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    padding: 2em 6px;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/* 2. */
