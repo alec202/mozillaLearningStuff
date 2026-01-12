@@ -21,7 +21,7 @@ read -p "Use saved directory from current_learning_directory.txt? (Y/N): " use_s
 
 if [[ "$use_saved" =~ ^[Yy]$ ]]; then
     # Path to the text file
-    saved_dir_file="/Users/alecmirambeau/Desktop/Programming Stuff Personal/mozillaLearningStuff/current_learning_directory.txt"
+    saved_dir_file="/Users/alecmirambeau/Desktop/personal_programming_stuff/mozillaLearningStuff/current_learning_directory.txt"
     
     # Check if the file exists
     if [ -f "$saved_dir_file" ]; then
