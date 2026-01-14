@@ -1,0 +1,28 @@
+.wrapper {
+  background-color: rgb(148 255 172);
+  padding: 10px;
+  color: purple;
+  display: flow-root;
+  
+}
+
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  font:
+    0.9em/1.2 "Helvetica",
+    "Arial",
+    sans-serif;
+}
+
+.box {
+  float: left;
+  margin: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: rgb(207 232 220);
+  padding: 1em;
+  color: black;
+}
