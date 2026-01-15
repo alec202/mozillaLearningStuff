@@ -1,0 +1,10 @@
+/* CSS for scrolling_index */
+dt {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 1em 0;
+}

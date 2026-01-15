@@ -1,0 +1,18 @@
+/* CSS for basic_example */
+body {
+  width: 500px;
+  margin: 0 auto;
+  height: 2500px;
+}
+
+.positioned {
+  background: rgb(255 84 104 / 30%);
+  border: 2px solid rgb(255 84 104);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+
+  position: sticky;
+  top: 30px;
+  left: 30px;
+}
