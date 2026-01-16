@@ -1,0 +1,30 @@
+/* CSS for horizontal_and_vertical_alignment */
+body {
+  font-family: sans-serif;
+  width: 90%;
+  max-width: 960px;
+  margin: 10px auto;
+}
+div {
+  height: 200px;
+  border: 1px solid black;
+}
+button {
+  font-size: 18px;
+  line-height: 1.5;
+  width: 15%;
+}
+/* Add your flexbox CSS below here */
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button:first-child {
+    order: 3;
+}
+
+button:nth-child(5) {
+    order: -1;
+}
