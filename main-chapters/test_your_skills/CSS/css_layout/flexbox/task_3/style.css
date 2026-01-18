@@ -1,0 +1,31 @@
+/* CSS for task_3 */
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+ul {
+  width: 450px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #4d7298;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+li {
+    flex: 1 1 auto;
+}
