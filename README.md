@@ -2,7 +2,7 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids#as_many_columns_as_will_fit
 
 
 After Finished with all of the CSS stuff come back here and read this to understand what it does better:
