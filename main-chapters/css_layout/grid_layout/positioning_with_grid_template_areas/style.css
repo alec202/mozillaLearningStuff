@@ -1,0 +1,42 @@
+/* CSS for positioning_with_grid_template_areas */
+.container {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-areas:
+        "header ."
+        "sidebar main-content"
+        "sidebar footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main-content;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+header,
+footer {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    text-align: center;
+}
+
+aside {
+    border-right: 1px solid rebeccapurple;
+}
+

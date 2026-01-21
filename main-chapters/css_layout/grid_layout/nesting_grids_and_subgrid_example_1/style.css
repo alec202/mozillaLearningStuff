@@ -1,0 +1,52 @@
+/* CSS for nesting_grids_and_subgrid */
+.container {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+header,
+footer {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    text-align: center;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    border-right: 1px solid rebeccapurple;
+    grid-area: sidebar;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+main {
+    grid-area: content;
+    display: grid;
+    grid-template-rows: 4fr 3fr 3fr;
+    gap: inherit;
+}
+
+article {
+    padding: 10px;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+}
