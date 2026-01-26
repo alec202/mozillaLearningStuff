@@ -1,0 +1,45 @@
+/* CSS for task_4 */
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 200px min-content;
+}
+
+.card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tags {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tags > * {
+  background-color: #999999;
+  color: white;
+  padding: 0.2em 0.8em;
+  border-radius: 0.2em;
+  font-size: 80%;
+  margin: 5px;
+}
+
+.container {
+  /* Add styles here */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: min-content; */
+  gap: 10px;
+}
+
+.tags {
+  /* Add styles here */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
