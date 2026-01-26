@@ -54,3 +54,8 @@ nav a {
 .feature {
     width: 200px;
 }
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+}
