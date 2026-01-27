@@ -1,0 +1,9 @@
+/* CSS for css_grid */
+@media screen and (width >= 600px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5%;
+    background-color: lightgray;
+  }
+}
