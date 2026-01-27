@@ -8,6 +8,7 @@ body {
     color: #333333;
     margin: 0;
     font: 1.2em / 1.6 sans-serif;
+    padding: 12px 0;
 }
 
 img {
@@ -55,7 +56,23 @@ nav a {
     width: 200px;
 }
 
+/* task 1 */
 nav > ul {
     display: flex;
     justify-content: space-around;
 }
+
+/* task 2 */
+nav {
+    position: sticky;
+    top: 0;
+}
+
+/* task 3 */
+.feature {
+    float: left;
+    margin-right: 0.8em;
+    margin-bottom: 0.15em;
+}
+
+/* task 4 */
