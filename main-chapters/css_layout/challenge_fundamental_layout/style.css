@@ -9,6 +9,7 @@ body {
     margin: 0;
     font: 1.2em / 1.6 sans-serif;
     padding: 12px 0;
+    height: 2200px;
 }
 
 img {
@@ -56,8 +57,31 @@ nav a {
     width: 200px;
 }
 
+nav li {
+    /* border: 2px solid; */
+    flex: 1 1 auto;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav>ul>li {
+    border-left: solid 1px c;
+    border-right: solid 1px white;
+}
+
+nav li:first-of-type {
+    border-left: none;
+}
+
+nav li:last-of-type {
+    border-right: none;
+}
+
 /* task 1 */
-nav > ul {
+nav>ul {
     display: flex;
     justify-content: space-around;
 }
@@ -71,8 +95,21 @@ nav {
 /* task 3 */
 .feature {
     float: left;
-    margin-right: 0.8em;
-    margin-bottom: 0.15em;
+    margin: 8px 30px 20px 0;
+    /* margin-right: 0.8em;
+    margin-bottom: 0.15em; */
 }
 
 /* task 4 */
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+/* task 5 */
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
