@@ -1,0 +1,10 @@
+/* CSS for use_of_pointing_devices */
+@media screen and (hover: hover) {
+    body {
+        color: purple;
+    }
+    body:hover {
+        color: white;
+        background: black;
+    }
+}

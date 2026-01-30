@@ -1,0 +1,13 @@
+/* CSS for orientation */
+@media screen and (orientation: landscape) {
+    body {
+        color: rebeccapurple;
+    
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        color: darkcyan;
+    }
+}

@@ -1,0 +1,6 @@
+/* CSS for width_and_height */
+@media screen and (max-width: 600px) {
+    body {
+        color: red;
+    }
+}
