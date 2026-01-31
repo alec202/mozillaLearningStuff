@@ -1,0 +1,6 @@
+/* CSS for not_logic_in_media_queries_ex_2 */
+@media (not (width < 600px)) and (not (width > 1000px)) {
+    body {
+        color: blue;
+    }
+}

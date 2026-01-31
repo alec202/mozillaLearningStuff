@@ -1,0 +1,6 @@
+/* CSS for not_logic_in_media_queries */
+@media not (width >= 600px) {
+    body {
+        color: blue;
+    }
+}

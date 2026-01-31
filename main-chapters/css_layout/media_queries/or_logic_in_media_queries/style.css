@@ -1,0 +1,7 @@
+/* CSS for or_logic_in_media_queries */
+@media screen and (width >= 600px), screen and (orientation: landscape) {
+    body {
+        color: blue;
+        background-color: black;
+    }
+}

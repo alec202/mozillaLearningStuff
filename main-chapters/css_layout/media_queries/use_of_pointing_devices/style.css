@@ -1,5 +1,5 @@
 /* CSS for use_of_pointing_devices */
-@media screen and (hover: hover) {
+@media screen and (pointer: fine) {
     body {
         color: purple;
     }
