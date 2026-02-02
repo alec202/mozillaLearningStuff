@@ -109,13 +109,11 @@ nav a:focus {
         /* CREATING MIDDLE LAYOUT TASK 2 */
         position: sticky;
         top: 0;
-
-
     }
 
     nav ul {
         /* CREATING MIDDLE LAYOUT TASK 3 */
-        flex-flow: row nowrap;
+        flex-direction: row;
     }
 
     /* CREATING MIDDLE LAYOUT TASK 4 */
@@ -149,15 +147,32 @@ nav a:focus {
 /* CREATING WIDE SCREEN LAYOUT TASK 1 */
 @media (width > 1300px) {
 
-    /* .grid {
+    .grid {
         grid-template-areas:
         "nav article article article aside";
+        /* grid-template-columns: 1fr 3fr 1fr; */
     }
-    nav {
+    
+    nav{
         grid-area: nav;
+        position: static;
     }
 
     article {
         grid-area: article;
-    } */
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    nav ul {
+        /* CREATING THE WIDE SCREEN LAYOUT TASK 2: changing flex-direction to column. */
+        flex-direction: column;
+        justify-content: start;
+    }
+    /* CREATING WIDE SCREEN LAYOUT TASK 3 */
+    nav li {
+        flex: unset;
+    }
 }
