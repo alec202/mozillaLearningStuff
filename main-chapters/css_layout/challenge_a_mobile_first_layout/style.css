@@ -97,6 +97,27 @@ nav a:focus {
     margin: 8px 30px 20px 0;
 }
 
+/* IMPLEMENTING RESPONSIVE TYPOGRAPHY TASK 1: REMOVE TOP AND
+    BOTTOM MARGIN FOR H1 AND H2 */
+h1,
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    /* IMPLEMENTING RESPONSIVE TYPOGRAPHY TASK 2: CHANGE THEIR
+    SIZE RESPONSIVELY AS VIEWPORT IS WIDENED OR NARROWED */
+    font-size: calc(1.3rem + 3vw);
+    padding: 0;
+    line-height: 1;
+}
+
+h2 {
+    font-size: calc(1rem + 2vw);
+}
+
+
 @media (width >=800px) {
 
     /* CREATING THE MIDDLE LAYOUT TASK 1 */
@@ -106,6 +127,7 @@ nav a:focus {
 
     nav {
         display: block;
+        inset: unset;
         /* CREATING MIDDLE LAYOUT TASK 2 */
         position: sticky;
         top: 0;
@@ -125,9 +147,10 @@ nav a:focus {
     /* CREATING MIDDLE LAYOUT TASK 5 */
     .grid {
         display: grid;
-        grid-template-areas: 
-        "nav nav nav nav"
-        "article article article aside";
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas:
+            "nav nav"
+            "article aside";
         gap: 20px;
     }
 
@@ -148,31 +171,28 @@ nav a:focus {
 @media (width > 1300px) {
 
     .grid {
+        grid-template-columns: 1fr 3fr 1fr;
         grid-template-areas:
-        "nav article article article aside";
-        /* grid-template-columns: 1fr 3fr 1fr; */
-    }
-    
-    nav{
-        grid-area: nav;
-        position: static;
-    }
-
-    article {
-        grid-area: article;
-    }
-
-    aside {
-        grid-area: aside;
+            "nav article aside";
     }
 
     nav ul {
         /* CREATING THE WIDE SCREEN LAYOUT TASK 2: changing flex-direction to column. */
         flex-direction: column;
-        justify-content: start;
     }
-    /* CREATING WIDE SCREEN LAYOUT TASK 3 */
+
+    /* CREATING WIDE SCREEN LAYOUT TASK 3: Make nav items only as tall as their content */
     nav li {
         flex: unset;
     }
+}
+
+/* ADJUSTING THE LAYOUT FOR PRINT */
+@media print {
+
+    button,
+    nav {
+        display: none;
+    }
+
 }
