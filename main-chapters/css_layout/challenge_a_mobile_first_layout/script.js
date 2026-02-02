@@ -24,6 +24,7 @@ function handleEventListeners() {
       nav.style.display = "block";
     }
   } else {
+    // nav less than 800px
     btn.addEventListener("click", showNav);
     nav.addEventListener("click", hideNav);
     document.body.addEventListener("keydown", hideNavEsc);
