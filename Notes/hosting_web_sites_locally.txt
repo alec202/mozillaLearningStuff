@@ -1,0 +1,15 @@
+Content found here: 
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/set_up_a_local_testing_server
+It includes using Python and PHP as well.
+
+to use node.js http-server module as an easy way to host html files in any directory:
+
+    npx http-server /path/to/project -o -p 9999
+
+This hosts all files in the /path/to/project directory on localhost:9999. 
+The option -o will open the index.html page in a web browser. If index.html doesn't exist, 
+then the directory is displayed instead.
+
+The --open flag (or -o with a path) lets you specify which file to open. For example:
+    npx http-server /path/to/project -o/myfile.html -p 9999 
+will open the html file called myfile.html.
