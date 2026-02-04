@@ -85,6 +85,7 @@ cat > "$full_path/index.html" << EOF
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>$folder_name</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -98,10 +99,16 @@ cat > "$full_path/style.css" << EOF
 /* CSS for $folder_name */
 EOF
 
+# Create script.js file
+echo "Creating script.js..."
+cat > "$full_path/script.js" << EOF
+// JavaScript for $full_path
+EOF
+
 echo
 echo "================================"
 echo "Success! Project created:"
 echo "Folder: $full_path"
-echo "Files: index.html, style.css"
+echo "Files: index.html, style.css, script.js"
 echo "================================"
 echo
