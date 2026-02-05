@@ -102,7 +102,7 @@ EOF
 # Create script.js file
 echo "Creating script.js..."
 cat > "$full_path/script.js" << EOF
-// JavaScript for $full_path
+// JavaScript for $folder_name
 EOF
 
 echo
