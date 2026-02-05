@@ -2,8 +2,7 @@ This repository is where I will store the code examples I complete as I work thr
 
 I am here: 
 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript#inline_javascript_handlers
-
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods#learning_challenges
 
 After Finished with all of the HTML, CSS, & JS stuff come back here and read this to understand what it does better:
 
