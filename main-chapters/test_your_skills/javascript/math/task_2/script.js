@@ -14,7 +14,7 @@ finalNumber = Number(finalResult);
 
 // Don't edit the code below here!
 
-const section = document.querySelector("section");
+const section = document.querySelector("body");
 const para1 = document.createElement("p");
 para1.textContent = `Your finalResult is ${finalResult}`;
 const para2 = document.createElement("p");
