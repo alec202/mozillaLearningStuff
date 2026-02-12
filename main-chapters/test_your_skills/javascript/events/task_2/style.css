@@ -1,0 +1,8 @@
+/* CSS for task_2 */
+* {
+    box-sizing: border-box;
+}
+
+canvas {
+    border: 1px solid black;
+}
