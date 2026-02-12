@@ -1,0 +1,17 @@
+/* CSS for video_player_example */
+div {
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.hidden {
+    display: none;
+}
+
+div video {
+    padding: 40px;
+    display: block;
+    width: 400px;
+    margin: 40px auto;
+}
