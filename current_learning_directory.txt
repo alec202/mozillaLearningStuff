@@ -1,1 +1,1 @@
-/Users/alecmirambeau/Desktop/personal_programming_stuff/mozillaLearningStuff/main-chapters/javascript/objects
+/Users/alecmirambeau/Desktop/personal_programming_stuff/mozillaLearningStuff/main-chapters/test_your_skills/javascript/objects
