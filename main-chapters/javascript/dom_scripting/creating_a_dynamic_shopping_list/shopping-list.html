@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list example</title>
+    <style>
+        li {
+            margin-bottom: 10px;
+        }
+
+        li button {
+            font-size: 12px;
+            margin-left: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My shopping list</h1>
+
+    <form>
+        <label for="item">Enter a new item:</label>
+        <input type="text" name="item" id="item">
+        <button>Add item</button>
+    </form>
+
+    <ul>
+
+    </ul>
+
+    <script>
+        const unList = document.querySelector("ul");
+        const userInput = document.querySelector("form > input");
+        const submitButton = document.querySelector("form > button");
+
+        const shoppingList = [];
+
+        function addItem(event) {
+            console.log("inside addItem func");
+            event.preventDefault();
+            const enteredItem = userInput.value;
+            userInput.value = "";
+            const newListItem = document.createElement("li");
+            const textForNewListItem = document.createElement("span");
+            const deleteButtonForNewListItem = document.createElement("button");
+
+            newListItem.appendChild(textForNewListItem);
+            newListItem.appendChild(deleteButtonForNewListItem);
+            textForNewListItem.textContent = enteredItem;
+            deleteButtonForNewListItem.textContent = "Delete";
+
+            unList.appendChild(newListItem);
+
+            deleteButtonForNewListItem.addEventListener("click", () => {
+                deleteButtonForNewListItem.parentNode.remove();
+            })
+
+            userInput.focus();
+        }
+
+        submitButton.addEventListener("click", (event) => {
+            addItem(event);
+        });
+
+    </script>
+</body>
+
+</html>

@@ -12,13 +12,7 @@ class Cat {
         console.log(`Hello, said ${this.name} the ${this.breed}.`);
     }
 }
-/**
- *     
-    name: "Elfie",
-    breed: "Aphrodite Giant",
-    color: "ginger",
 
- */
 cat = new Cat("Bertie", "Cymric", "white");
 cat2 = new Cat("Elfie", "Aphrodite Giant", "Ginger");
 // Don't edit the code below here!

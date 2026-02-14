@@ -108,7 +108,9 @@ EOF
 echo
 echo "================================"
 echo "Success! Project created:"
+echo
 echo "Folder: $full_path"
-echo "Files: index.html, style.css, script.js"
+echo
+echo "Files Created: index.html, style.css, script.js"
 echo "================================"
 echo
