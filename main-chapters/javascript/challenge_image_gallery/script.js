@@ -24,12 +24,30 @@ const images = [
 const baseURL = "./images/"
 for (const img of images) {
     const newImg = document.createElement("img");
-    console.log(`img path: ${baseURL}${img.fileName}.jpg`)
     newImg.setAttribute("src", `${baseURL}${img.fileName}.jpg`);
     newImg.setAttribute("alt", `${img.alt}`);
     newImg.setAttribute("tabIndex", "0");
+    newImg.addEventListener("click", (eve) => {
+        console.log(img)
+        updateDisplayedImage(img);
+    });
+    newImg.addEventListener("keyup", (eve) => {
+        if (eve.key == "enter") {
+            console.log("enter on image was pressed");
+            updateDisplayedImage(img);
+        }
+    })
     thumbBar.appendChild(newImg);
 }
 
 
-// ON STEP 7!!
+/**
+ * 
+ * @param {image} img The img being clicked on.
+ */
+function updateDisplayedImage(img) {
+    console.log(`img file: ${img.fileName + ".jpg"}
+        img alt text: ${img.alt}`);
+    displayedImage.src = baseURL + img.fileName + ".jpg";
+    displayedImage.alt = img.alt;
+}
