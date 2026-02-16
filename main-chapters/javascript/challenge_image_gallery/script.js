@@ -28,12 +28,10 @@ for (const img of images) {
     newImg.setAttribute("alt", `${img.alt}`);
     newImg.setAttribute("tabIndex", "0");
     newImg.addEventListener("click", (eve) => {
-        console.log(img)
         updateDisplayedImage(img);
     });
     newImg.addEventListener("keyup", (eve) => {
         if (eve.key == "enter") {
-            console.log("enter on image was pressed");
             updateDisplayedImage(img);
         }
     })
@@ -46,8 +44,18 @@ for (const img of images) {
  * @param {image} img The img being clicked on.
  */
 function updateDisplayedImage(img) {
-    console.log(`img file: ${img.fileName + ".jpg"}
-        img alt text: ${img.alt}`);
     displayedImage.src = baseURL + img.fileName + ".jpg";
     displayedImage.alt = img.alt;
 }
+
+// ON THE WIPRE UP DARKEN/LIGHTEN BUTTON
+btn.addEventListener("click", () => {
+    if (btn.classList.contains("dark")) {
+        btn.textContent = "Lighten";
+        overlay.style.backgroundColor = "rgb(0 0 0 / 0.5)";
+    } else {
+        btn.textContent = "Darken";
+        overlay.style.backgroundColor = "rgb(0 0 0 / 0)";
+    }
+    btn.classList.toggle("dark");
+})
