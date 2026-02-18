@@ -83,6 +83,57 @@ function renderHouses(e) {
 
 
     // Add rest of code here
+    resultCount.textContent = `Results returned: ${filteredHouses.length}`
+    output.replaceChildren();
+
+    /**
+     * 
+     * @param {houseObj} house - the current house object.
+     */
+    function renderHouse(house) {
+        // get the total area of the rooms.
+        let totalAreaOfRooms = 0;
+        for (const property in house.room_sizes) {
+            totalAreaOfRooms += house.room_sizes[property];
+        }
+
+        // output to UI
+        const newArticle = document.createElement("article");
+
+        const streetAddress = document.createElement("h2");
+        streetAddress.textContent = `${house.house_number} ${house.street}`;
+        newArticle.appendChild(streetAddress);
+        
+        // create the list of info displayed to user
+        const houseListContainer = document.createElement("ul");
+
+        const bedroomInfoListItem = document.createElement("li");
+        bedroomInfoListItem.textContent = `🛏️ Bedrooms: ${house.bedrooms}`;
+        houseListContainer.appendChild(bedroomInfoListItem);
+
+        const bathroomInfoListItem = document.createElement("li");
+        bathroomInfoListItem.textContent = `🛀 Bathrooms: ${house.bathrooms}`;
+        houseListContainer.appendChild(bathroomInfoListItem);
+
+        const roomAreaInfoListItem = document.createElement("li");
+        roomAreaInfoListItem.textContent = `Room area: ${totalAreaOfRooms}m²`
+        houseListContainer.appendChild(roomAreaInfoListItem);
+
+        const housePriceInfoListItem = document.createElement("li");
+        housePriceInfoListItem.textContent = `Price: £${house.price}`
+        houseListContainer.appendChild(housePriceInfoListItem);
+
+        // add the unordered list to the article
+        newArticle.appendChild(houseListContainer);
+
+        // add the article for this individual house to the output section
+        output.appendChild(newArticle);
+
+    }
+
+    for (const house of filteredHouses) {
+        renderHouse(house);
+    }
 }
 
 // Add a submit listener to the <form> element
@@ -101,7 +152,6 @@ async function fetchHouseData() {
         const result = await response.json();
         // houses is an array of house objects.
         houses = result;
-        console.log(result);
         initializeForm();
 
     } catch (error) {
