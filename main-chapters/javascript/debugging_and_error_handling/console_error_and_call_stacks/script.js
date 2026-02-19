@@ -5,11 +5,11 @@ const section = document.querySelector("section");
 const requestURL =
     "https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json";
 
-const response = fetch(requestURL).then((response) => {
-    populateHeader(response);
-    showHeroes(response);
-
-});
+const response = fetch(requestURL).then((response) => response.json())
+    .then((responseJson) => {
+        populateHeader(responseJson);
+        showHeroes(responseJson);
+    });
 
 function populateHeader(jsonObj) {
     const h1 = document.createElement("h1");
