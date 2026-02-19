@@ -1,8 +1,7 @@
 This repository is where I will store the code examples I complete as I work through the [Mozilla web application development course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started)
 
 I am here: 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript#using_the_javascript_debugger
-
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction#how_to_choose_a_framework
 
 After Finished with all of the HTML, CSS, & JS stuff come back here and read this to understand what it does better:
 

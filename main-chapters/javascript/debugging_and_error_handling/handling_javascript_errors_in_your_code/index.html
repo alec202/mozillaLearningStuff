@@ -1,13 +1,38 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Handling JS errors</title>
-  </head>
-  <body>
+</head>
+
+<body>
+    <section></section>
     <script>
-      // Code goes below this line
+        // Code goes below this line
+        function inchesToMeters(num) {
+            if (typeof num !== "number" || Number.isNaN(num)) {
+                throw new Error("A number was not provided. Please correct the input.");
+                return undefined;
+            }
+            const mVal = (num * 2.54) / 100;
+            const m2dp = mVal.toFixed(2);
+            return m2dp;
+        }
+        const height = 70;
+        try {
+            const temp = inchesToMeters(height)
+            console.log(temp);
+            const sec = document.getElementsByTagName("section");
+            sec[0].textContent = temp;
+
+
+        } catch (error) {
+            console.log(error);
+            console.log("Insert code to handle the error");
+        }
     </script>
-  </body>
+</body>
+
 </html>
