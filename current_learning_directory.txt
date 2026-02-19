@@ -1,1 +1,1 @@
-/Users/alecmirambeau/Desktop/personal_programming_stuff/mozillaLearningStuff/main-chapters/javascript/making_network_requests
+/Users/alecmirambeau/Desktop/personal_programming_stuff/mozillaLearningStuff/main-chapters/javascript/debugging_and_error_handling
