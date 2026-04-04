@@ -1,0 +1,7 @@
+/* CSS for using_the_animation_shorthand */
+p {
+    animation-duration: 3s;
+    animation-name: slide-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

@@ -1,0 +1,21 @@
+/* CSS for making_text_slide_across_the_browser_window */
+/* body {
+    overflow: hidden;
+} */
+
+p {
+    animation-duration: 3s;
+    animation-name: slide-in;
+}
+
+@keyframes slide-in {
+    from {
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}

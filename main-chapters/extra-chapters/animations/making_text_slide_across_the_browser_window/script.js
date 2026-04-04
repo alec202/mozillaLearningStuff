@@ -1,0 +1,1 @@
+// JavaScript for making_text_slide_across_the_browser_window
