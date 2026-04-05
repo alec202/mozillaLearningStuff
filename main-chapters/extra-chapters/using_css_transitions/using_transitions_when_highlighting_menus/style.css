@@ -1,0 +1,24 @@
+/* CSS for using_transitions_when_highlighting_menus */
+nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+a {
+    flex: 1;
+    background-color: #333333;
+    color: white;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    /* keyword all means to apply the rules for 
+    all transitioned/changed properties */
+    transition: all 0.5s ease-out;
+}
+
+a:hover,
+a:focus {
+    background-color: white;
+    color: #333333;
+}

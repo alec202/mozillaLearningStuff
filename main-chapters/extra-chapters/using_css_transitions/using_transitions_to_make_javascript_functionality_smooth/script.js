@@ -1,0 +1,1 @@
+// JavaScript for using_transitions_to_make_javascript_functionality_smooth

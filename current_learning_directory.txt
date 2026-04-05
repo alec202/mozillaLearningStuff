@@ -1,1 +1,1 @@
-/Users/alecmirambeau/Desktop/personal_programming_stuff/mozillaLearningStuff/main-chapters/extra-chapters/animations
+/Users/alecmirambeau/Desktop/personal_programming_stuff/mozillaLearningStuff/main-chapters/extra-chapters/using_css_transitions
