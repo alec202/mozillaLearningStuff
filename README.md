@@ -1,6 +1,6 @@
 This repository is where I will store the code examples I complete as I work through the [Mozilla web application development course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started)
 
-I am on the [React Learning Portion](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started#exploring_our_first_react_component_%E2%80%94_app).
+I am on the [This part](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML#accessible_data_tables).
 
 I'm completing the React Portion out of the tutorial from [this github repository](https://github.com/alec202/reactToDoApp)
 
