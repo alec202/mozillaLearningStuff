@@ -1,0 +1,41 @@
+/* CSS for task_4 */
+body {
+    background-color: white;
+    color: #333333;
+    font:
+        1em / 1.4 "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 400px;
+    margin: 0 auto;
+}
+
+main img {
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 0 black;
+}
+
+header > h1 {
+    background: url("https://mdn.github.io/shared-assets/images/examples/star-pink_32x32.png") no-repeat left;
+    padding-left: 50px;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
