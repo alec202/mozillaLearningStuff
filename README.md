@@ -1,6 +1,6 @@
 This repository is where I will store the code examples I complete as I work through the [Mozilla web application development course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started)
 
-I am on the [This part](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/CSS_and_JavaScript).
+I am on the [This part](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/CSS_and_JavaScript#color_and_color_contrast).
 
 I'm completing the React Portion out of the tutorial from [this github repository](https://github.com/alec202/reactToDoApp)
 
