@@ -25,3 +25,5 @@ In terms of making non-focusable code focusable, WAI-ARIA extends the `tabindex`
 * `tabindex="0"` — as indicated above, this value allows elements that are not normally tabbable to become tabbable. This is the most useful value of tabindex.
 
 * `tabindex="-1"` — this allows not normally tabbable elements to receive focus programmatically, e.g., via JavaScript, or as the target of links.
+
+* You can use the aria-label property to provide a label where we don't want the label to be visible to sighted users (see the Signposts/Landmarks section, above). Some other labeling techniques use other properties such as aria-labelledby if you want to designate a non-<label> element as a label or label multiple form inputs with the same label, and aria-describedby, if you want to associate other information with a form input and have it read out as well.
