@@ -18,3 +18,5 @@ function handleSelection(e) {
     descHeading.textContent = heading;
     descPara.textContent = description;
 }
+
+// adding a comment for testing purposes.
