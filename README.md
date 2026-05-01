@@ -1,6 +1,6 @@
 This repository is where I will store the code examples I complete as I work through the [Mozilla web application development course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started)
 
-I am on [This part](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview#get_requestresponse_example).
+I am on [This part](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks).
 
 I'm completing the React Portion out of the tutorial from [this github repository](https://github.com/alec202/reactToDoApp)
 
